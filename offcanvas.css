@@ -1,0 +1,169 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+  #map-canvas  {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#map-canvas {
+  width:500px;
+  height:480px;
+}
+ .navbar-header
+{
+  padding-left: 100px;
+  
+}
+ div a{
+  padding: 0 20px;
+   color:cyan;
+   font-weight: 500;
+}
+form .navbar-form
+{
+  padding-left: 50px;
+}
+
+ul .ele{
+  font-weight: 900;
+}
+#elem{
+  color: #D90F12
+}
+ ul #ele{
+  
+  color:#BB6B2E;
+   font-weight: 600;
+}
+form #forma{
+  padding-left: 100px;
+}
+div li 
+{
+  display: flex;
+  font-weight: 400;
+  color:#CD171A;
+}
+#titulli
+{
+  color:#35AC82;
+  font-weight:700;
+  font-family: 'Roboto',"Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  margin-right: 20px;
+  padding-right: 50px;
+}
+#topFixedNavbar1
+{
+    padding-left: 400px;
+    display: flex;  
+}
+li
+{
+  padding: 0px 5 0 5px;
+}
+ul .loget
+{
+  padding-right: 150px;
+  color:#C1De34;
+  font-weight: bold;
+}
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 30px 0;
+}
+
+.jumbotron
+{
+  background-color:#4dff4d;
+}
+.jumbotron h1
+{
+  text-align: center;
+  color: #ff9980;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+
+body {
+    padding-top: 20px;
+    
+}
+
+.btn-default {
+    top: 25%;
+    left:25%; 
+    color: #999; 
+    background: #fffccc; 
+} 
+
+
+div #anash
+{
+  align-content: right;
+  text-align: right;
+font-weight: 900;
+}
+p .lead
+{
+text-align: right;
+font-weight: 900;
+}
+.row
+{
+  width: 100px;
+}

@@ -1,0 +1,1 @@
+<p style="font-family: Times New Roman , Times, serif;"><i>There are 5 different types of roles for people who manage Pages. When you create a Page, you automatically become the Page's admin, which means only you can change how the Page looks and publish as the Page. Only an admin can assign roles and change others' roles.</i></p>

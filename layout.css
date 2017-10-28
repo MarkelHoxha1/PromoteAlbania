@@ -1,0 +1,191 @@
+.navbar-header
+{
+  padding-left: 100px;
+  
+}
+form .profil
+{
+  font-weight: 800;
+  font-family: Times;
+  color: #35e02f;
+}
+ div a{
+  padding: 0 20px;
+   color:cyan;
+   font-weight: 500;
+}
+
+form .navbar-form
+{
+  padding-left: 500px;
+}
+body
+{
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+ul .ele{
+  font-weight: 900;
+}
+#elem{
+  color: #D90F12
+}
+ ul #ele{
+  
+  color:#BB6B2E;
+   font-weight: 600;
+}
+form #forma{
+  padding-left: 100px;
+}
+div li 
+{
+  display: flex;
+  font-weight: 400;
+  color:#CD171A;
+}
+#titulli
+{
+  color:#35AC82;
+  font-weight:700;
+  font-family: 'Roboto',"Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  margin-right: 20px;
+  padding-right: 50px;
+}
+#topFixedNavbar1
+{
+    padding-left: 400px;
+    display: flex;  
+}
+li
+{
+  padding: 0px 5 0 5px;
+}
+ul .loget
+{
+  padding-right: 150px;
+  color:#C1De34;
+  font-weight: bold;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+margin-right: 20px;
+  font-weight:400;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('saranda.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+.form
+{
+width:200px;
+padding:7px;
+border: 1px  #333;
+}
+.buton
+{
+
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+.col-sm-6
+{
+  border:48px;
+  padding:1.5em;
+}
+figure p
+{
+  color: #003366;
+}
+.col-sm-1
+{
+  color: red;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
