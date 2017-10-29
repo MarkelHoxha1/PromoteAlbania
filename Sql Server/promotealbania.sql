@@ -306,27 +306,6 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `user`
---
-
-INSERT INTO `user` (`UserID`, `Username`, `Password`, `Type`, `First_name`, `Last_name`, `Address`, `Email`, `Foto`) VALUES
-(4, 'Markel', 'eaf0c29ee2a23f2d2704619055dc4147', 'Admin', 'Markel', 'Hoxha', 'Shkoze', 'markel.hoxha@fshnstudent.info', 'Pogradec3.jpg'),
-(15, 'Arlindi', 'eaf0c29ee2a23f2d2704619055dc4147', 'Admin_Agjensie', 'arlindi', 'Hoxha', 'shkoze1', 'arlindi.hoxha@gmail.com', ''),
-(16, 'Redian1', 'eaf0c29ee2a23f2d2704619055dc4147', 'Admin_Agjensie', 'Redi', 'Hoxha', 'Shkoze', 'sdihfiuh@ssdvc.com', 'Pogradec.jpg'),
-(17, 'Mario', '8a9285a94448db03842aa59266d64b18', 'Admin', 'Mario', 'Coku', 'KullaPArisit', 'mario@jsndj.com', 'Shkoder1.jpg'),
-(18, 'Mario_m', 'd956e1df2f4bf1bdd9fbaaa6ade9174f', 'Admin', 'sdnfkj', 'sdklfmlkds', 'fsiodjidufhd', 'msfbhjjh@dhjbvjh.com', 'Vlora_Cover.jpg'),
-(24, 'Markel12', 'eaf0c29ee2a23f2d2704619055dc4147', 'User', 'Marke', 'Hoxha', 'Shkoze', 'markel.hoxha@fshnstudent.info', '16129545_374367152919633_1982897562_o.jpg'),
-(26, 'Markeli', 'eaf0c29ee2a23f2d2704619055dc4147', 'User', 'Markel', 'Hoxhaa', 'Shkoze', 'markel.hoxha6@gmail.com', '16129545_374367152919633_1982897562_o.jpg'),
-(27, 'Ornes', '8bfab71eb0662bab49b314eb86c809fa', 'Admin', 'Ornes', 'Gjoka', 'Tirane', 'njksbnj@hhbdsh.com', ''),
-(29, 'Keli', '06fb12f87112b0a9fc725ab9f99300f8', 'Admin_Agjensie', 'Keli', 'Hoxha', 'Shkoze', 'markel.hoxha4@gmail.com', 'Shkoder1.jpg'),
-(31, 'Marxhens', '99255cea7c1dd2d16ccdee0774adbdb7', 'User', 'Marxhens', 'Kumurija', 'Elbasan', 'marxhens@gmail.com', '16265464_692774790930139_7996639745565002841_n.jpg'),
-(32, 'Marxhens1', '99255cea7c1dd2d16ccdee0774adbdb7', 'User', 'Marxhens', 'Kumurija', 'Elbasan', 'marxhens@gmail.com', '16129545_374367152919633_1982897562_o.jpg'),
-(33, 'mario1', 'cea4e07a4b9b78554c5f26b20ecc0517', 'Admin_Agjensie', 'mario1', 'mario1', 'asdksad', 'mario@yahoo.com', 'blu5.jpg'),
-(34, 'mario12', '45ad5e57653aebad0d479a0b6c7db743', 'User', 'mario12', 'mario12', 'mario12', 'mario12@yahoo.com', 'bora.jpg'),
-(35, 'margegaj', '3012817eabda0af5e9662630c3bac456', 'User', 'margegaj', 'margegaj', 'lnfjsgfkusgef', 'dkjedcbjwe@cgywcgy.com', ''),
-(36, 'MArkelii', '98670d8515750899b16e844d1642a43a', 'Admin_Agjensie', 'keli', 'Hoxha', 'Shkoze', 'markel.hoxha4@gmail.com', 'berat2.jpeg');
-
---
 -- Indexes for dumped tables
 --
 
