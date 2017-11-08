@@ -9,7 +9,7 @@ include('user_name.php');
 	<title>Admin Panel</title>
 	
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style1.css">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
 </head>
 <body>
 <div class="main_wrapper">

@@ -65,41 +65,7 @@ CREATE TABLE `fatura` (
 -- Dumping data for table `fatura`
 --
 
-INSERT INTO `fatura` (`FaturaID`, `UserID`, `Koha`, `Cmimi`, `paketaID`) VALUES
-(1, 24, '2017-01-06 00:00:00', 2500, 2),
-(2, 24, '2017-01-05 00:00:00', 1500, 3),
-(3, 24, '2017-01-06 00:00:00', 2500, 2),
-(4, 24, '2017-01-05 00:00:00', 1500, 3),
-(5, 24, '2017-01-06 00:00:00', 3500, 3),
-(6, 24, '2017-01-05 00:00:00', 1100, 4),
-(18, 4, '2017-01-11 20:35:46', 0, 3),
-(19, 4, '2017-01-11 20:37:10', 0, 3),
-(20, 24, '2017-01-11 20:38:31', 0, 3),
-(21, 24, '2017-01-11 20:45:40', 0, 3),
-(22, 24, '2017-01-11 20:49:18', 0, 3),
-(23, 24, '2017-01-11 20:49:22', 0, 3),
-(24, 24, '2017-01-11 20:49:22', 0, 3),
-(25, 24, '2017-01-11 20:49:25', 0, 3),
-(27, 15, '2017-01-12 11:41:55', 0, 3),
-(32, 24, '2017-01-12 11:52:33', 1200, 2),
-(33, 24, '2017-01-12 11:53:57', 1500, 3),
-(34, 26, '2017-01-12 15:00:23', 1890, 33),
-(35, 26, '2017-01-12 15:03:54', 1890, 33),
-(36, 26, '2017-01-12 15:03:54', 1890, 33),
-(37, 26, '2017-01-12 15:44:36', 1200, 2),
-(38, 26, '2017-01-12 15:44:55', 1580, 15),
-(39, 26, '2017-01-12 20:16:16', 1200, 4),
-(40, 26, '2017-01-12 20:32:35', 1500, 3),
-(41, 24, '2017-01-16 12:51:18', 1500, 3),
-(42, 24, '2017-01-21 00:23:29', 1500, 3),
-(43, 24, '2017-01-22 17:48:40', 1500, 36),
-(44, 26, '2017-01-22 19:43:59', 1250, 34),
-(45, 26, '2017-01-23 15:49:36', 1890, 33),
-(46, 34, '2017-02-13 09:35:04', 1200, 2),
-(47, 34, '2017-02-13 09:37:29', 1500, 36),
-(48, 34, '2017-02-13 09:37:43', 1234, 40),
-(49, 34, '2017-02-13 09:39:14', 1250, 34),
-(50, 34, '2017-02-13 09:39:27', 1500, 36);
+
 
 -- --------------------------------------------------------
 
@@ -138,16 +104,6 @@ CREATE TABLE `kerkesa` (
 -- Dumping data for table `kerkesa`
 --
 
-INSERT INTO `kerkesa` (`KerkesaID`, `Data`, `Pershkrimi`, `UserID`) VALUES
-(1, '2017-01-02 00:00:00', 'Bej nje pakete per ne durres', 24),
-(2, '2017-01-02 00:00:00', 'Bej nje pakete per ne durres', 24),
-(3, '2017-01-02 00:00:00', 'Bej nje pakete per ne durres', 24),
-(4, '2017-01-02 00:00:00', 'Bej nje pakete per ne durres', 24),
-(5, '2017-01-02 00:00:00', 'Bej nje pakete per ne durres', 24),
-(6, '2017-01-02 00:00:00', 'Bej nje pakete per ne durres', 24),
-(7, '2017-01-02 00:00:00', 'Bej nje pakete per ne durres', 24),
-(8, '2017-01-02 00:00:00', 'Bej nje pakete per ne durres', 24),
-(9, '2017-01-17 00:00:00', 'ijionijk', 24);
 
 -- --------------------------------------------------------
 
@@ -191,14 +147,7 @@ CREATE TABLE `mesazhe` (
 -- Dumping data for table `mesazhe`
 --
 
-INSERT INTO `mesazhe` (`MesazhID`, `Pershkrimi`, `Tipi`, `UserID`) VALUES
-(1, 'ckemi', 'Pershendetje', 4),
-(10, 'qsdhfbsuy', 'Kerkese', 24),
-(12, 'bdjhbvdjh', 'Kerkese', 24),
-(19, 'une jam', 'Kerkese', 31),
-(20, 'une jam', 'Kerkese', 31),
-(21, 'ckemi', 'Kerkese', 31),
-(22, 'du te bej nje pakete', 'Kerkese', 26);
+
 
 -- --------------------------------------------------------
 
@@ -226,18 +175,7 @@ CREATE TABLE `paketa` (
 -- Dumping data for table `paketa`
 --
 
-INSERT INTO `paketa` (`paketaID`, `EmriP`, `Vendodhja`, `Sasia_e_vendeve`, `Sezoni`, `Pershkrimi`, `Cmimi`, `Data_Nisjes`, `Nr_i_diteve`, `Foto`, `UserID`, `TurizmiID`, `keywords`) VALUES
-(2, 'Vlora me ne', 'Vlore', 15, 'Vjeshte', 'Kjo pakete eshte nje nga paketat me te mira te ketij sezoni .\r\nShpresoj ta shijoni \r\nJu faleminderit .', 1200, '2017-01-29', 2, 'imazh.jpg', 16, 1, 'Vlora'),
-(3, 'Pogradeci si ty', 'Pogradec', 15, 'Vere', 'Kjo pakete eshte nje nga paketat me te mira te ketij sezoni .\r\nShpresoj ta shijoni \r\nJu faleminderit .\r\n', 1500, '2017-07-11', 3, 'imazh.jpg', 15, 2, 'Pogradec'),
-(4, 'Vlora jone', 'Vlore', 15, 'Vjeshte', 'Kjo pakete eshte nje nga paketat me te mira te ketij sezoni .\r\nShpresoj ta shijoni \r\nJu faleminderit .', 1200, '2017-01-29', 2, 'imazh.jpg', 16, 2, 'Vlora'),
-(15, 'Korca e bukur', 'Korce', 19, 'Vjeshte', 'Kjo pakete eshte nje nga paketat me te mira te ketij sezoni .Shpresoj ta shijoni Ju faleminderit .', 1580, '2017-05-12', 25, 'Saranda1.jpg', 15, 3, 'Korca'),
-(33, 'Tirane', 'Tirana', 19, 'Vjeshte', 'Ckemi', 1890, '0000-00-00', 19, 'Saranda1.jpg', 15, 1, 'Tirane'),
-(34, 'Durrsi', 'Durres', 14, 'Vjeshte', 'Ky eshte nje alamet pershkrimi', 1250, '2017-05-19', 16, 'Durres.jpg', 15, 2, ''),
-(35, 'Sebashku ne vlore', 'Vlore', 12, 'Vere', 'Kjo pakete eshte nje nga paketat me te mira te ketij sezoni .Shpresoj ta shijoni Ju faleminderit .', 1300, '0000-00-00', 15, 'Velipoje2.jpg', 15, 3, ''),
-(36, 'Paketa me e mire', 'Shkoder', 11, 'Vjeshte', 'Kjo pakete eshte nje nga paketat me te mira te ketij sezoni .Shpresoj ta shijoni Ju faleminderit .', 1500, '0000-00-00', 52, 'Durres1.jpg', 15, 4, ''),
-(38, 'Ne Tirane', 'Tirane', 15, 'Dimer', 'Paketa me e mie qe ekziston', 1500, '2017-08-19', 26, 'butrint.jpg', 15, 1, ''),
-(39, 'Nje udhetim ne vlore', 'Vlore', 19, 'Vere', 'Ky udhetim do jete ai i duhuri', 2500, '0000-00-00', 19, 'f873c144e93c9b0100b1dd1e0d31ac53.jpg', 15, 2, ''),
-(40, 'voskopoje', 'veskopoje', 34, 'Dimer', 'vend fantastik malor', 1234, '2017-12-02', 5, 'male.jpg', 33, 1, '');
+
 
 -- --------------------------------------------------------
 

@@ -13,21 +13,21 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 		<style>
-  .modal-backdrop.in
-  {
-    display: none
-  }
-</style>
+		  .modal-backdrop.in
+		  {
+		    display: none
+		  }
+		</style>
 
-	<style type="text/css">
-		.navbar { margin-bottom:0px !important; }
-		.carousel-caption { margin-top:0px !important }
-	</style>
+		<style type="text/css">
+			.navbar { margin-bottom:0px !important; }
+			.carousel-caption { margin-top:0px !important }
+		</style>
 
 
 
 		<script src="js/jquery-1.11.3.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	</head>
 

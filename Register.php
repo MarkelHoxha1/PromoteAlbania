@@ -7,7 +7,7 @@ include('dbcon.php');
     <head>
         
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="stili.css">
+        <link href="css/stili.css">
     </head>
     <body>
 

@@ -9,7 +9,7 @@ include('user_name.php');
 <head>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
- <link rel = "stylesheet" type = "text/css" href = "bootstrap/css/jquery.dataTables.css" />
+<link rel = "stylesheet" type = "text/css" href = "bootstrap/css/jquery.dataTables.css" />
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>

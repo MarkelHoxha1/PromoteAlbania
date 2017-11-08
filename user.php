@@ -11,7 +11,7 @@ include('user_name.php');
     <link rel = "stylesheet" type = "text/css" href = "bootstrap/css/jquery.dataTables.css" />
      <script src="bootstrap/js/jquery.dataTables2.js"></script>
 	<title>Admin Panel</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <div class="main_wrapper">

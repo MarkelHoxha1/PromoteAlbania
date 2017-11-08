@@ -13,7 +13,7 @@ include('user_name.php');
   <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="js/jquery-1.11.3.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
   <script src = "jquery-3.1.1.min.js">
   </script>
   <script type="text/javascript">

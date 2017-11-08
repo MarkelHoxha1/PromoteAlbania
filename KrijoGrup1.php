@@ -15,27 +15,27 @@ include('dbcon.php');
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="stilii.css">
+		<link rel="stylesheet" type="text/css" href="css/stilii.css">
 		<script src="js/jquery-1.11.3.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script type="text/javascript">
-  function mos()
-  {
-    alert("Ju duhet te jeni te rregjistruar qe te beni nje Kerkese");
-    alert("Ju faleminderit");
-  }
-</script>
+		<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+		  function mos()
+		  {
+		    alert("Ju duhet te jeni te rregjistruar qe te beni nje Kerkese");
+		    alert("Ju faleminderit");
+		  }
+		</script>
     
 
   </head>
 
   <body>
-  <?php
-					          					if(isset($_GET['SfidaId']))
-					            {
-					            $acc_query = $mysqli->query("SELECT * FROM `sfida` WHERE SfidaId = '$_GET[SfidaId]'") or die(mysql_error());
-					            $acc_fetch =$acc_query->fetch_array();
-					                      ?>
+	<?php
+	if(isset($_GET['SfidaId']))
+	{
+		$acc_query = $mysqli->query("SELECT * FROM `sfida` WHERE SfidaId = '$_GET[SfidaId]'") or die(mysql_error());
+		$acc_fetch =$acc_query->fetch_array();
+	?>
 		<div class="container">
 
 		<div class="card">

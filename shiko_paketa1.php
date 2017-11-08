@@ -7,7 +7,7 @@ include('user_name.php');
 <html>
 <head>
   <title>Admin Panel</title>
-  <link rel="stylesheet" type="text/css" href="style1.css">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/jquery.dataTables.css">
 

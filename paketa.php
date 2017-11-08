@@ -13,18 +13,17 @@ include('user_name.php');
 <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/jquery.dataTables.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/jquery.dataTables.css">
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="bootstrap/js/jquery-1.11.3.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" type="text/css" href="css/style1.css">
 </head>
 <body>
 <div class="main_wrapper">
 <div id="header">
-    
 </div>
 <div id="right">
 

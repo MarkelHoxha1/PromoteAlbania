@@ -9,7 +9,7 @@ include('user_name.php');
 <link rel = "stylesheet" type = "text/css" href="bootstrap/css/bootstrap.min.css" />
     <link rel = "stylesheet" type = "text/css" href = "bootstrap/css/jquery.dataTables.css" />
 	<title>Admin Panel</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <div class="main_wrapper">

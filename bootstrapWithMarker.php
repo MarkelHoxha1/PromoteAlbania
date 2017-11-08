@@ -18,7 +18,7 @@ $mysqli = new mysqli("localhost", "root", "", "promotealbania");
 <!-- Optional theme -->
 <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="layout.css" rel="stylesheet" type="text/css">
+<link href="csslayout.css" rel="stylesheet" type="text/css">
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/jquery-1.11.3.min.js"></script>
