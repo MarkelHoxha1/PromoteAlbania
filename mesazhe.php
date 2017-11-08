@@ -59,7 +59,7 @@ include('user_name.php');
           </thead>
           <tbody>
             <?php
-              $query = $mysqli->uery("SELECT * FROM mesazhe ") or die(mysql_error());
+              $query = $mysqli->query("SELECT * FROM mesazhe ") or die(mysql_error());
               while($f_query = $query->fetch_array()){
             ?>
             <tr>

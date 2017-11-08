@@ -12,13 +12,13 @@
   }
 </style>
 <!-- Optional theme -->
-<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
 <link href="css/layout.css" rel="stylesheet" type="text/css">
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/jquery-1.11.3.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript">
   function mos()
   {
@@ -105,14 +105,14 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.js"></script>
   <section class="container">
-  <div class="row">
+   <div class="row">
     <figure class="col-sm-6">
      <a href="t_kulturor.php"> <p>Turizmi Kulturor</p></a>
     <a href="t_kulturor.php"><img src="Foto/butrint.jpg" alt="foto"></a>
     </figure>
     <figure class="col-sm-6">
-      <a href="#pjesa e marioc"><p>Turizmi malor</p></a>
-      <a href="#pjesa e marioc"><img src='Foto/mali.jpg'></a>
+      <a href="malore.php"><p>Turizmi malor</p></a>
+      <a href="malore.php"><img src='Foto/mali.jpg'></a>
     </figure>
   </div>
   <div class="row"> 
@@ -121,8 +121,8 @@
    <a href="Turizmi.php"><img src="Foto/ujesi.jpg"></a>
     </figure>
     <figure class="col-sm-6">
-      <a href="pjesa marxhensit"><p>Turizmi Kulinar</p></a>
-    <a href="pjesa e marxhensit"><img src="Foto/shtepi.jpg"></a>
+      <a href="marxhens.php"><p>Turizmi Kulinar</p></a>
+    <a href="marxhens.php"><img src="Foto/ushqim5.jpg"></a>
     </figure>
   </div>
 </section>

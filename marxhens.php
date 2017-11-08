@@ -161,19 +161,19 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-     <img class="img-responsive" src="shendetlije.jpg" alt="...">
+     <img class="img-responsive" src="Foto/shendetlije.jpg" alt="...">
       <div class="carousel-caption">
         Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="ushqim4.jpg" alt="...">
+      <img class="img-responsive" src="Foto/ushqim4.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
      <div class="item">
-      <img class="img-responsive" src="bakllava.jpg" alt="...">
+      <img class="img-responsive" src="Foto/bakllava.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
@@ -231,25 +231,25 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-     <img class="img-responsive" src="marxhens.jpg" alt="...">
+     <img class="img-responsive" src="Foto/marxhens.jpg" alt="...">
       <div class="carousel-caption">
         Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="ushqim5.jpg" alt="...">
+      <img class="img-responsive" src="Foto/ushqim5.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
      <div class="item">
-      <img class="img-responsive" src="ushqim6.png" alt="...">
+      <img class="img-responsive" src="Foto/ushqim6.png" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="koran.jpg" alt="...">
+      <img class="img-responsive" src="Foto/koran.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
@@ -305,25 +305,25 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-     <img class="img-responsive" src="ushqim1.jpg" alt="...">
+     <img class="img-responsive" src="Foto/ushqim1.jpg" alt="...">
       <div class="carousel-caption">
         Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="lakror.jpg" alt="...">
+      <img class="img-responsive" src="Foto/lakror.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
      <div class="item">
-      <img class="img-responsive" src="byrek.jpg" alt="...">
+      <img class="img-responsive" src="Foto/byrek.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="byrek2.jpg" alt="...">
+      <img class="img-responsive" src="Foto/byrek2.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
@@ -367,7 +367,7 @@
 
             <?php
              $cat_sql = 'SELECT * FROM paketa where TurizmiID= 4'; 
-            $cat = $mysqli->query($cat_sql,$conn);
+            $cat = $mysqli->query($cat_sql);
             $cat_query = $cat->fetch_assoc();
            // $paketaiID = $cat_query['paketaiID'];
             ?>

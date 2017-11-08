@@ -133,27 +133,6 @@
           <div class="jumbotron">
 
 
-            
-            
-            
-         
-  
-            
-            
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
             <h1>Turizmi Malor </h1>
             <p> Turizmi malor eshte nje nga menyrat me te mira per te vizituar dhe per te mare me te miren nga shqiperia. Malet jan te perqendruara kryesisht ne 
   rajin verior-verilindor ne ate jug-lindor dhe jugor. Malet ne shqiperi shkojne deri ne 2751 m mbi nivelin e detit(korab) dhe ofrojne pamje panoramike
@@ -191,19 +170,19 @@ Ekzistojnë shumë teori për krijimin e maleve. Malet zakonisht krijohen në pe
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-     <img class="img-responsive" src="theth.jpg" alt="...">
+     <img class="img-responsive" src="Foto/theth.jpg" alt="...">
       <div class="carousel-caption">
         Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="korca2.jpg" alt="...">
+      <img class="img-responsive" src="Foto/korca2.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
      <div class="item">
-      <img class="img-responsive" src="puk4.jpg" alt="...">
+      <img class="img-responsive" src="Foto/puk4.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
@@ -259,25 +238,25 @@ Ekzistojnë shumë teori për krijimin e maleve. Malet zakonisht krijohen në pe
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-     <img class="img-responsive" src="theth3.jpg" alt="...">
+     <img class="img-responsive" src="Foto/theth3.jpg" alt="...">
       <div class="carousel-caption">
         Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="valbone2.jpg" alt="...">
+      <img class="img-responsive" src="Foto/valbone2.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
      <div class="item">
-      <img class="img-responsive" src="valbone.jpg" alt="...">
+      <img class="img-responsive" src="Foto/valbone.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="theth3.jpg" alt="...">
+      <img class="img-responsive" src="Foto/theth3.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
@@ -334,25 +313,25 @@ Ekzistojnë shumë teori për krijimin e maleve. Malet zakonisht krijohen në pe
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-     <img class="img-responsive" src="monument1.jpg" alt="...">
+     <img class="img-responsive" src="Foto/monument1.jpg" alt="...">
       <div class="carousel-caption">
         Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="monument3.jpg" alt="...">
+      <img class="img-responsive" src="Foto/monument3.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
      <div class="item">
-      <img class="img-responsive" src="monument4.jpg" alt="...">
+      <img class="img-responsive" src="Foto/monument4.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="monument5.jpg" alt="...">
+      <img class="img-responsive" src="Foto/monument5.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
@@ -406,19 +385,19 @@ Ekzistojnë shumë teori për krijimin e maleve. Malet zakonisht krijohen në pe
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-     <img class="img-responsive" src="voskopoje.jpg" alt="...">
+     <img class="img-responsive" src="Foto/voskopoje.jpg" alt="...">
       <div class="carousel-caption">
         Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="dardhe2.jpg" alt="...">
+      <img class="img-responsive" src="Foto/dardhe2.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
      <div class="item">
-      <img class="img-responsive" src="dardhe3.jpg" alt="...">
+      <img class="img-responsive" src="Foto/dardhe3.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
@@ -473,19 +452,19 @@ Ekzistojnë shumë teori për krijimin e maleve. Malet zakonisht krijohen në pe
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-     <img class="img-responsive" src="tropoje1.jpg" alt="...">
+     <img class="img-responsive" src="Foto/tropoje1.jpg" alt="...">
       <div class="carousel-caption">
         Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="tropoje2.jpg" alt="...">
+      <img class="img-responsive" src="Foto/tropoje2.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
      <div class="item">
-      <img class="img-responsive" src="puk2.jpg" alt="...">
+      <img class="img-responsive" src="Foto/puk2.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
@@ -540,25 +519,25 @@ Ekzistojnë shumë teori për krijimin e maleve. Malet zakonisht krijohen në pe
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-     <img class="img-responsive" src="theth.jpg" alt="...">
+     <img class="img-responsive" src="Foto/theth.jpg" alt="...">
       <div class="carousel-caption">
         Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="valbone2.jpg" alt="...">
+      <img class="img-responsive" src="Foto/valbone2.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
      <div class="item">
-      <img class="img-responsive" src="voskopoje7.jpg" alt="...">
+      <img class="img-responsive" src="Foto/voskopoje7.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
     </div>
     <div class="item">
-      <img class="img-responsive" src="voskopoje6.jpg" alt="...">
+      <img class="img-responsive" src="Foto/voskopoje6.jpg" alt="...">
       <div class="carousel-caption">
          Image
       </div>
@@ -591,18 +570,11 @@ Ekzistojnë shumë teori për krijimin e maleve. Malet zakonisht krijohen në pe
           <div class="list-group">
             <a href="#" class="list-group-item active">Paketa</a>
            <?php    
-
-            $conn = mysql_connect("localhost","root")
-            or die("Could not connect");
-            mysql_select_db("promotealbania")
-            or die(mysql_error());
-              ?>
-
-
-            <?php
+            $mysqli = new mysqli("localhost", "root", "", "promotealbania");
+             
              $cat_sql = 'SELECT * FROM paketa where TurizmiID=1'; 
-            $cat = mysql_query($cat_sql,$conn);
-            $cat_query = mysql_fetch_assoc($cat);
+            $cat = $mysqli->query($cat_sql);
+            $cat_query = $cat->fetch_assoc();
            // $paketaiID = $cat_query['paketaiID'];
             ?>
             <p><?php  
@@ -612,7 +584,7 @@ Ekzistojnë shumë teori për krijimin e maleve. Malet zakonisht krijohen në pe
                  <?php echo $cat_query['EmriP']; ?></a>
 
               <?php
-                } while($cat_query = mysql_fetch_assoc($cat))
+                } while($cat_query = $cat->fetch_assoc())
 
 
 
@@ -629,9 +601,9 @@ if(isset($_GET['paketaID']))
 
   $paketa_sql =" SELECT * From paketa where paketaID =".$_GET['paketaID'];
 
-  if($paketa_query = mysql_query($paketa_sql,$conn))
+  if($paketa_query = $mysqli->query($paketa_sql))
   {
-    $paketa_rs = mysql_fetch_assoc($paketa_query);
+    $paketa_rs = $paketa_query->fetch_assoc();
     ?>
              
         <div class="modal fade" id="myModal" role="dialog">
@@ -730,8 +702,8 @@ if(isset($_GET['search']))
   $se = preg_replace("#[^0-9a-z]#i", "", $se);
 
         $sql = "SELECT * FROM paketa where  TurizmiID=1 and EmriP LIKE '%$se%' OR Vendodhja LIKE '%$se%'  "; 
-        $sql1 = mysql_query($sql);
-        $count = mysql_num_rows($sql1);
+        $sql1 = $mysql->query($sql);
+        $count =$sql1->mysql_num_rows();
   
 
   ?>
@@ -747,7 +719,7 @@ if(isset($_GET['search']))
         <div class="modal-body">
           <?php if($count==0){ ?><h4>No Results</h4><?php } 
           else {
-          while($search = mysql_fetch_assoc($sql1))
+          while($search = $sql1->mysql_fetch_assoc())
            {
             
                ?>

@@ -108,8 +108,8 @@ require('user_name.php');
   <section class="container">
   <div class="row">
     <figure class="col-sm-6">
-     <a href="t_kulturor.php"> <p>Turizmi Kulturor</p></a>
-    <a href="t_kulturor.php"><img src="Foto/butrint.jpg" alt="foto"></a>
+     <a href="t_kulturor1.php"> <p>Turizmi Kulturor</p></a>
+    <a href="t_kulturor1.php"><img src="Foto/butrint.jpg" alt="foto"></a>
     </figure>
     <figure class="col-sm-6">
       <a href="malore1.php"><p>Turizmi malor</p></a>
