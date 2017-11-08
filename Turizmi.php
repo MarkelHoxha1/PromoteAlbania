@@ -840,7 +840,7 @@ google.maps.event.addListener(map,'click',function(event)
 });
 
 
-var person = prompt("Cfare e karakterizon kete vend!", "");
+
 function Shto(map,location)
 {
   

@@ -35,46 +35,56 @@ include('user_name.php');
                 <div class = "col-md-2">
                 </div>
                 <div class = "col-md-4">
-                    
+                    <table>
                     <form method = "POST"  enctype="multipart/form-data">
                         <div class = "form-group">
-                            <label>Emri i Sfides</label>
+                            <td><tr>
+                            <label>Emri i Sfides</label></tr><tr>
                             <input  id = "emri" type = "text" name="emri"  class = "form-control" />
                             <input  id = "PaketaID" type = "hidden" value = "<?php echo $acc_fetch['PaketaID']?>" class = "form-control" />
+                        </tr></td>
                         </div>
                         <div class = "form-group">
-                            <label>Pershkrimi</label>
+                            <td><tr>
+                            <label>Pershkrimi</label></tr><tr>
                             <input type = "text" id = "vendodhja" name="vendodhja" type = "text"  class = "form-control" />
+                            </tr></td>
                             
                          <div class = "form-group">
-                            <label>Data e nisjes</label>
-                            <input type = "text" id = "data" name="data"  type = "text"  class = "form-control" />
-                            
+                            <td><tr>
+                            <label>Data e nisjes</label></tr><tr>
+                            <input type = "date" id = "data" name="data"  type = "text"  class = "form-control" />
+                            </tr></td>
                         </div>
                        
                         </div>
                         <div class = "form-group">
-                            <label>Data e Mbarimit</label>
-                            <input type = "text" id = "Datam" name="Datam" type = "text"  class = "form-control" />
-                            
+                            <td><tr>
+                            <label>Data e Mbarimit</label></tr><tr>
+                            <input type = "date" id = "Datam" name="Datam" type = "text"  class = "form-control" />
+                            </tr></td>
                         </div>
                         <div class = "form-group">
-                            <label>Destinacioni</label>
+                            <td><tr>
+                            <label>Destinacioni</label></tr><tr>
                             <input type = "text" id = "Destinacioni" name="Destinacioni" type = "text"  class = "form-control" />
-                            
+                            </tr></td>
                         </div>
                        
 
                         
                         <div class="form-group">
-                        <label>Choose Photo</label>
+                            <td><tr>
+                        <label>Choose Photo</label></tr><tr>
                         <input type="hidden" name="size" value="100000000">
                         <input type="file" name="foto">
+                        </tr></td>
                         </div>
 
                        
-                         <input  type="submit"  value = "Save Challenge" name="ruaj" class="btn btn-primary btn-lg"></input>
+                         <input  id="ruajSfide" type="submit"  value = "Save Challenge" name="ruaj" class="btn btn-primary btn-lg"></input>
                         </form>
+                        </table>
                         </div>
                         </div>
 

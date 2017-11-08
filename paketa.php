@@ -36,79 +36,91 @@ include('user_name.php');
                 <div class = "col-md-2">
                 </div>
                 <div class = "col-md-4">
-                    
+                    <table>
                     <form method = "POST"  enctype="multipart/form-data">
-                        <div class = "form-group">
-                            <label>Emri i paketes</label>
+                        <div class = "form-group"><td>
+                            <tr>
+                            <label>Emri i paketes</label> </tr>
+                            <tr>
                             <input  id = "emri" type = "text" name="emri"  class = "form-control" />
                             <input  id = "PaketaID" type = "hidden" value = "<?php echo $acc_fetch['PaketaID']?>" class = "form-control" />
+                        </tr>
+                    </td>
                         </div>
                         <div class = "form-group">
-                            <label>Vendodhja</label>
+                            <td><tr>
+                            <label>Vendodhja</label></tr><tr>
                             <input type = "text" id = "vendodhja" name="vendodhja" type = "text"  class = "form-control" />
-                            
+                            </tr></td>
                         </div>
                         <div class = "form-group">
-                            <label>Sasia e vendeve</label>
+                            <td><tr>
+                            <label>Sasia e vendeve</label></tr><tr>
                             <input type = "text" id = "Sasia" name="Sasia" type = "text"  class = "form-control" />
-                            
+                            </tr></td>
                         </div>
                         <div class = "form-group">
-                            <label>Sezoni</label>
+                            <td><tr>
+                            <label>Sezoni</label></tr><tr>
                             <input type = "text" id = "Sezoni" name="Sezoni" type = "text"  class = "form-control" />
-                            
+                            </tr></td>
                         </div>
                         <div class = "form-group">
-                            <label>Pershkrimi</label>
+                            <td><tr>
+                            <label>Pershkrimi</label></tr><tr>
                             <input type = "text" id = "Pershkrimi" name="Pershkrimi" type = "text"  class = "form-control" />
-                            
+                            </tr></td>
                         </div>
                         <div class = "form-group">
-                            <label>Cmimi</label>
+                            <td><tr>
+                            <label>Cmimi</label></tr><tr>
                             <input type = "text" id = "cmimi" name="cmimi"  type = "text"  class = "form-control" />
-                            
+                            </tr></td>
                         </div>
                         <div class = "form-group">
-                            <label>Data e nisjes</label>
-                            <input type = "text" id = "data" name="data"  type = "text"  class = "form-control" />
-                            
+                            <td><tr>
+                            <label>Data e nisjes</label></tr><tr>
+                            <input type = "date" id = "data" name="data"  type = "text"  class = "form-control" />
+                            </tr></td>
                         </div>
 
                         <div class = "form-group">
-                            <label>Numri i diteve</label>
+                            <td><tr>
+                            <label>Numri i diteve</label></tr><tr>
                             <input type = "text" id = "ditet" name="ditet"  type = "text" class = "form-control" />
-                            
+                            </tr></td>
                         </div>
                          <div class = "form-group">
-                            <label>LLoji i Turizmit</label>
-                            <select   name="lloji"  class = "form-control" />
+                            <td><tr>
+                            <label>LLoji i Turizmit</label></tr><tr>
+                            <select  id="llojTurizmi" name="lloji"  class = "form-control" />
                             <option>Select a kind of tourisms</option>
                                <?php 
-                            
                                 $sql = "SELECT  * FROM turizmi";
                                 $run = $mysqli->query($sql);
                                 while ($rows=$run->fetch_array()) 
                                 {
                                     $tid = $rows['TurizmiID'];
                                     $tll = $rows['Lloji'];
-
                                     echo "<option value='$tid'>$tll</option>";
-                                    
                                 }
-                                                  ?></select>
-                           
-                            
+                                ?></select>
+                                </tr></td>
                         </div>
 
                         <div class="form-group">
-                        <label>Choose Photo</label>
+                        <td><tr>
+                        <label>Choose Photo</label></tr><tr>
                         <input type="hidden" name="size" value="100000000">
                         <input type="file" name="foto">
+                        </tr></td>
                         </div>
 
-                       
-                         <input  type="submit"  value = "Save Package" name="ruaj" class="btn btn-primary btn-lg"></input>
+                        <td><tr>
+                         <input  type="submit" id="ruajPakete" value = "Save Package" name="ruaj" class="btn btn-primary btn-lg"></input>
+                         </tr></td>
                         </form>
+                        </table>
                         </div>
                         </div>
 

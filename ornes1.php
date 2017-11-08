@@ -20,18 +20,18 @@ require('user_name.php');
 		<style type="text/css">
 		.navbar { margin-bottom:0px !important; }
 		.carousel-caption { margin-top:0px !important }
-	</style>
-	<style>
-  .modal-backdrop.in
-  {
-    display: none
-  }
-</style>
+		</style>
+		<style>
+		  .modal-backdrop.in
+		  {
+		    display: none
+		  }
+		</style>
 
 
 
 		<script src="js/jquery-1.11.3.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	</head>
 
@@ -50,7 +50,7 @@ require('user_name.php');
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<img src="logo.jpg" height="50" width="50"> &nbsp;
+						<img src="Foto/logo.jpg" height="50" width="50"> &nbsp;
 					</div>
 			
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -94,7 +94,7 @@ require('user_name.php');
 				<div class="carousel-inner">
 					<div class="item">
 						<center>
-						<img src="challenge1.jpg" style="height: 500px; width: 100%;">
+						<img src="Foto/challenge1.jpg" style="height: 500px; width: 100%;">
 						</center>
 						<div class="container">
 							<div class="carousel-caption">
@@ -104,7 +104,7 @@ require('user_name.php');
 						</div>
 					</div>
 					<div class="item">
-						<img src="challenge2.jpg" style="height: 500px; width: 100%;">
+						<img src="Foto/challenge2.jpg" style="height: 500px; width: 100%;">
 						<div class="container">
 							<div class="carousel-caption">
 								<h1>Albania challenges</h1>
@@ -138,7 +138,7 @@ require('user_name.php');
 															</div>
 					</div>
 					<div class="item active">
-						<img src="challenge3.jpeg" style="height: 500px; width: 100%;">
+						<img src="Foto/challenge3.jpeg" style="height: 500px; width: 100%;">
 						<div class="container">
 							<div class="carousel-caption">
 								<h1>Albania challenges</h1>

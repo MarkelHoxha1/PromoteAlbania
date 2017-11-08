@@ -61,7 +61,7 @@ require('user_name.php');
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <img src="logo.jpg" height="50" width="50"> &nbsp;
+            <img src="Foto/logo.jpg" height="50" width="50"> &nbsp;
           </div>
       
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -74,7 +74,7 @@ require('user_name.php');
               <li class="active">
                 <a href="bootstrap1.php">Home</a>
               </li>
-              <li ><a href="KrijoGrup.php">Sfida</a></li>
+              <li ><a href="shiko_sfida1.php">Sfida</a></li>
             </ul>
             
             <ul class="nav navbar-nav navbar-right" style="font-family: Times New Roman;">
@@ -135,7 +135,7 @@ require('user_name.php');
                    <td><?php echo $f_query['Data_fillimit']?></td>
                     <td><?php echo $f_query['Data_mbarimit']?></td>
                     <td><?php echo $f_query['Destinacioni']?></td>
-                    <td class="align-img"><center><img src="<?php echo $f_query['Foto'] ?>" width="80" height="60"></center></td>
+                    <td class="align-img"><center><img src="Foto/<?php echo $f_query['Foto'] ?>" width="80" height="60"></center></td>
                     <td class="align-img">
                        <a class = "btn btn-success btn-xs" href="KrijoGrup1.php?SfidaId=<?php echo $f_query['SfidaId']?>"   value ="<?php echo $f_query['SfidaId']?>">
               Shiko

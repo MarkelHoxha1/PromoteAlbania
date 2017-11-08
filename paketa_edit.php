@@ -59,52 +59,64 @@ include('user_name.php');
             $acc_query = $mysqli->query("SELECT * FROM `paketa` WHERE paketaID = '$_GET[paketaID]'") or die(mysql_error());
             $acc_fetch = $acc_query->fetch_array();
                       ?>
+                      <table>
           <form method = "POST"   action="edit.php?paketaID=<?php echo $acc_fetch['paketaID']?>" enctype = "multipart/form-data">
             <div class = "form-group">
-              <label>Emri i paketes</label>
+              <td><tr>
+              <label>Emri i paketes</label></tr><tr>
               <input  id = "emri" type = "text" name="emri" value = "<?php echo $acc_fetch['EmriP']?>" class = "form-control" />
               <input  id = "PaketaID" type = "hidden"  name = "paketaID" value = "<?php echo $acc_fetch['paketaID']?>" class = "form-control" />
+            </tr></td>
             </div>
             <div class = "form-group">
-              <label>Vendodhja</label>
+              <td><tr>
+              <label>Vendodhja</label></tr><tr>
               <input type = "text" id = "vendodhja" name="vendodhja" type = "text" value= "<?php echo $acc_fetch['Vendodhja']?>" class = "form-control" />
-              
+              </tr></td>
             </div>
             <div class = "form-group">
-              <label>Sasia e vendeve</label>
+              <td><tr>
+              <label>Sasia e vendeve</label></tr><tr>
               <input type = "text" id = "Sasia" name="Sasia" type = "text" value= "<?php echo $acc_fetch['Sasia_e_vendeve']?>" class = "form-control" />
-              
+              </tr></td>
             </div>
             <div class = "form-group">
-              <label>Sezoni</label>
+              <td><tr>
+              <label>Sezoni</label></tr><tr>
               <input type = "text" id = "Sezoni" name="Sezoni" type = "text" value= "<?php echo $acc_fetch['Sezoni']?>" class = "form-control" />
-              
+              </tr></td>
             </div>
             <div class = "form-group">
-              <label>Pershkrimi</label>
+              <td><tr>
+              <label>Pershkrimi</label></tr><tr>
               <input type = "text" id = "Pershkrimi" name="Pershkrimi" type = "text" value= "<?php echo $acc_fetch['Pershkrimi']?>" class = "form-control" />
-              
+               </tr></td>
             </div>
             <div class = "form-group">
-              <label>Cmimi</label>
+              <td><tr>
+              <label>Cmimi</label></tr><tr>
               <input type = "text" id = "cmimi" name="cmimi"  type = "text" value= "<?php echo $acc_fetch['Cmimi']?>" class = "form-control" />
-              
+              </tr></td>
             </div>
             <div class = "form-group">
-              <label>Data e nisjes</label>
+              <td><tr>
+              <label>Data e nisjes</label></tr><tr>
               <input type = "text" id = "data" name="data"  type = "text" value= "<?php echo $acc_fetch['Data_Nisjes']?>" class = "form-control" />
-              
+              </tr></td>
             </div>
 
             <div class = "form-group">
-              <label>Numri i diteve</label>
+               <td><tr>
+              <label>Numri i diteve</label></tr><tr>
               <input type = "text" id = "ditet" name="ditet"  type = "text" value= "<?php echo $acc_fetch['Nr_i_diteve']?>" class = "form-control" />
-              
+              </tr></td>
             </div>
             <div class="form-group">
-                        <label>Choose Photo</label>
+              <td><tr>
+                        <label>Choose Photo</label></tr><tr>
                         <input type="hidden" name="size" value="100000000">
                         <input type="file" name="foto">
+                        </tr></td>
             </div>
 
             <div id = "loading">
@@ -114,6 +126,7 @@ include('user_name.php');
 
               <button type="submit" href="edit.php?<?php echo $acc_fetch['paketaID']?>" class = "btn btn-success"  value="Save Changes" name="login" > Save Changes</button>
           </form>
+          </table>
           <?php
         }
         ?>

@@ -59,3 +59,22 @@ body
 	color: red;
 
 }
+.form-group{
+	display: -webkit-box;
+}
+input{
+	margin-left: 250px;
+	margin-top: -25px;
+	margin-bottom: 10px;
+}
+#llojTurizmi{
+	margin-left: 250px;
+	margin-top: -25px;
+	margin-bottom: 10px;
+	}
+#ruajPakete{
+		    margin-top: 15px;
+	}
+	#ruajSfide{
+		margin-top: 15px;
+	}

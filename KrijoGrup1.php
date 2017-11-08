@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <?php
 include('dbcon.php');
 ?>
@@ -12,12 +12,11 @@ include('dbcon.php');
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/jquery.dataTables.css">
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" type="text/css" href="css/stilii.css">
 		<script src="js/jquery-1.11.3.min.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 		  function mos()
 		  {
@@ -25,8 +24,6 @@ include('dbcon.php');
 		    alert("Ju faleminderit");
 		  }
 		</script>
-    
-
   </head>
 
   <body>
@@ -46,7 +43,7 @@ include('dbcon.php');
 
 						
 						<div class="preview-pic tab-content">
-						  <div class="tab-pane active" id="pic-1"><img src="<?php echo $acc_fetch['Foto'];  ?>"></div>
+						  <div class="tab-pane active" id="pic-1"><img src="Foto/<?php echo $acc_fetch['Foto'];  ?>"></div>
 						  
 						</div>
 						 
