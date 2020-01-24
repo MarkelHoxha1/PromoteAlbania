@@ -2,13 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"  crossorigin="anonymous">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"  crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+
 <link href="css/offcanvas.css" rel="stylesheet" type="text/css">
 <style>
   .modal-backdrop.in
@@ -23,9 +26,7 @@
        }
     </style>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 <script type="text/javascript">
   function mos()
   {
@@ -48,7 +49,6 @@
     <div class="collapse navbar-collapse" id="topFixedNavbar1">
       <ul  id = "#elem" class=" nav navbar-nav ">
         <li><a  href="bootstrap.php" id="ele">Home<span class="sr-only">(current)</span></a></li>
-       <li><a href="ornes.php" id="ele">Challenge<span class="sr-only">(current)</span></a></li>
         <li><a href="#Contact Us" id="ele" data-toggle="modal" data-target="#myModal7">About Us<span class="sr-only">(current)</span></a></li>
 
         <div class="modal fade col-xs-12" id="myModal7" role="dialog">
@@ -63,11 +63,11 @@
               <div class="modal-body">
                 <pre>Ky projekt u realizua nga studentet e deges se informatikes viti 3 grupi C1,
             Pjesmarres :
-            1:Markel Hoxha
-            2:Mario Margegaj
-            3:Mario Coku
-            4:Ornes Gjoka
-            5:Marxhens Kumuria.</pre>
+            1:
+            2:
+            3:
+            4:
+            5:.</pre>
         </div>
         <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -92,11 +92,7 @@
         </div>
         <div class="modal-body">
           <pre>Per te na kontaktuar :
-          Markel Hoxha (markel.hoxha@fshnstudent.info) Nr celular:0692676041
-          Mario Margegaj (mario.margegaj@fshnstudent.info)  Nr celular:0674428368
-          Mario Coku(mario.coku@fshnstudent.info)   Nr celular:0665425987
-          Ornes Gjoka (ornes.gjoka@fshnstudent.info)  Nr celular:0684596123
-          Marxhens Kumuria(marxhens.kumuria@fshnstudent.info)  Nr celular:0682549684
+         
           </pre>
         </div>
         <div class="modal-footer">
@@ -235,9 +231,9 @@ Founded as an ancient Greek colony in the 6th century BC by the name of Aulon an
 
             <div class="col-xs-6 col-lg-4">
               <h2>Pogradec</h2>
-              <p>Pogradec is a city and municipality in central Albania, situated on the shores of one of Europe's deepest and oldest lakes, the Ohrid lake. It is located in the County of Korçë.This city is surrounded by hills... </p>
+              <p>Pogradec is a city and municipality in central Albania, situated on the shores of one of Europe's deepest and oldest lakes, the Ohrid lake. It is located in the County of Korçë.This city is surrounded by hills on the southern and western side... </p>
                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">See More</button>
- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">See Places</button>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModall">See Places</button>
 
          
   <!-- Modal -->
@@ -253,7 +249,8 @@ Founded as an ancient Greek colony in the 6th century BC by the name of Aulon an
         <div class="modal-body">
           <p>Pogradec is a city and municipality in central Albania, situated on the shores of one of Europe's deepest and oldest lakes, the Ohrid lake. It is located in the County of Korçë.
 
-This city is surrounded by hills on the southern and western side. The lake is in the eastern and northern side of the city. The highway linking to Tirana, Elbasan and Korçë passes through the city. It is located southeast of Elbasan, southwest of Ohrid in the Republic of Macedonia, north of Korçë and northwest of Florina in Greece.</p>
+This city is surrounded by hills on the southern and western side. The lake is in the eastern and northern side of the city. The highway linking to Tirana, Elbasan and Korçë passes through the city. It is located southeast of Elbasan, southwest of Ohrid in the Republic of Macedonia, north of Korçë and northwest of Florina in Greece.
+                  </p>
         </div>
         <div class="modal-footer">
         
@@ -314,7 +311,7 @@ This city is surrounded by hills on the southern and western side. The lake is i
               <h2>Shkoder</h2>
               <p>Shkodër ([ˈʃkɔdəɾ]; definite Albanian form: Shkodra [ˈʃkɔdɾa], for other names see the etymology section), is a city and municipality in northwestern Albania and the seat of the county with the same name... </p>
            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">See More</button>
- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">See Places</button>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModall">See Places</button>
 
   <!-- Modal -->
   
@@ -384,221 +381,7 @@ This city is surrounded by hills on the southern and western side. The lake is i
    
   </div>
             </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Velipoje</h2>
-              <p>Velipojë (definite Albanian form: Velipoja) is a village and a former municipality in Shkodër County, northwestern Albania. At the 2015 local government reform it became a subdivision of the municipality Shkodër... </p>
-               <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">See More</button>
- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">See Places</button>
 
-  <!-- Modal -->
-   <div class="modal fade col-xs-12" id="myModal4" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Velipoje</h4>
-        </div>
-        <div class="modal-body">
-          <p>Velipojë is a village and a former municipality in Shkodër County, northwestern Albania. At the 2015 local government reform it became a subdivision of the municipality Shkodër.[1] The population at the 2011 census was 5,031.Velipojë is situated on the estuary of the Buna river (the only navigable river of Albania), where it flows into the Adriatic Sea while constituting the natural border with Montenegro. The Commune (i.e. the administrative unit) of Velipojë has a population of around 10,000, spread over several small settlements, the largest of which is the town of Velipojë itself.
-
-Its economy is based on agriculture (arable land and livestock, sheep and cattle), some fishing, and chiefly tourism. The scenery is largely unspoilt: a mixture of sea-coast, river estuary, heathland, thick pine woods, farmland, and high mountains. </p>
-        </div>
-        <div class="modal-footer">
-        
-        <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-  
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-     <img class="img-responsive" src="images/Velipoje.jpg" alt="...">
-      <div class="carousel-caption">
-        Image
-      </div>
-    </div>
-    <div class="item">
-      <img class="img-responsive" src="images/Velipoje1.jpg" alt="...">
-      <div class="carousel-caption">
-         Image
-      </div>
-    </div>
-     <div class="item">
-      <img class="img-responsive" src="images/Velipoje2.jpg" alt="...">
-      <div class="carousel-caption">
-         Image
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-    </div>
-  </div>
-</div>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-   
-  </div>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Durres</h2>
-              <p>Durrës (Albanian pronunciation: [ˈdurəs]), historically also known as Durazzo (Italian pronunciation: [duˈrattso]) and Dyrrachium, is the second largest city and a municipality of Albania... </p>
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">See More</button>
- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">See Places</button>
- 
-  <!-- Modal -->
-   <div class="modal fade col-xs-12" id="myModal5" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Durres</h4>
-        </div>
-        <div class="modal-body">
-          <p>Durrës (Albanian pronunciation: [ˈdurəs]), historically also known as Durazzo (Italian pronunciation: [duˈrattso]) and Dyrrachium, is the second largest city and a municipality of Albania, and one of the world's oldest continuously inhabited cities. Geographically, it is central on the coast, about 33 km (21 mi) west of the capital Tirana.
-
-It is one of the most ancient and economically significant cities of Albania. Durrës is home to Albania's main port, the Port of Durrës. The city is at one of the narrower points of the Adriatic Sea, opposite the Italian ports of Bari and Brindisi. The port is also the 10th largest cargo port on the Adriatic Sea that handle more than 3.4 million tonnes of cargo per year.</p>
-        </div>
-        <div class="modal-footer">
-        
-        <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-  
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-     <img class="img-responsive" src="images/Durres.jpg" alt="...">
-      <div class="carousel-caption">
-        Image
-      </div>
-    </div>
-    <div class="item">
-      <img class="img-responsive" src="images/Durres1.jpg" alt="...">
-      <div class="carousel-caption">
-         Image
-      </div>
-    </div>
-     <div class="item">
-      <img class="img-responsive" src="images/Durres2.jpg" alt="...">
-      <div class="carousel-caption">
-         Image
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-    </div>
-  </div>
-</div>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-   
-  </div>
-  
-            </div><!--/.col-xs-6.col-lg-4-->
-             <div class="col-xs-6 col-lg-4">
-              <h2>Saranda</h2>
-              <p>Saranda or Sarandë (Greek: Άγιοι Σαράντα, Agioi Saranda, Italian: Santiquaranta) is a town and municipality in Vlorë County, southern Albania. It is one of the most important tourist attractions of the Albanian Riviera ... </p>
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6">See More</button>
- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">See Places</button>
-  
-  <!-- Modal -->
-   <div class="modal fade col-xs-12" id="myModal6" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Saranda</h4>
-        </div>
-        <div class="modal-body">
-          <p>Saranda or Sarandë (Greek: Άγιοι Σαράντα, Agioi Saranda, Italian: Santiquaranta) is a town and municipality in Vlorë County, southern Albania. It is one of the most important tourist attractions of the Albanian Riviera. It is situated on an open sea gulf of the Ionian Sea in the central Mediterranean, about 14 km (8.7 mi) east of the north end of the Greek island of Corfu.
-
-Near Sarandë are the remains of the ancient city of Butrint, a UNESCO World Heritage site. Sarandë has a Greek minority and is considered one of the two centers of the Greek community in Albania.[1]</p>
-        </div>
-        <div class="modal-footer">
-        
-        <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-  
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-     <img class="img-responsive" src="images/Saranda.jpg" alt="...">
-      <div class="carousel-caption">
-        Image
-      </div>
-    </div>
-    <div class="item">
-      <img class="img-responsive" src="images/Saranda1.jpg" alt="...">
-      <div class="carousel-caption">
-         Image
-      </div>
-    </div>
-     <div class="item">
-      <img class="img-responsive" src="images/Saranda2.jpg" alt="...">
-      <div class="carousel-caption">
-         Image
-      </div>
-    </div>
-    <div class="item">
-      <img class="img-responsive" src="images/Saranda3.jpg" alt="...">
-      <div class="carousel-caption">
-         Image
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-    </div>
-  </div>
-</div>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-   
-  </div>
-  
-            </div><!--/.col-xs-6.col-lg-4-->
           </div><!--/row-->
         </div><!--/.col-xs-12.col-sm-9-->
 
@@ -718,7 +501,7 @@ if(isset($_GET['paketaID']))
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-           <a type="button" onclick="mos()" href="#"  class="btn btn-default" >Bli</a>
+           <!-- <a type="button" onclick="mos()" href="#"  class="btn btn-default" >Bli</a> -->
 
         </div>
         </div>

@@ -111,7 +111,6 @@ include('user_name.php');
 <a href="kerkesa.php">Shiko kerkesa</a>
 <a href="shiko_paketa1.php">Shiko paketa</a>
 <a href="paketa.php">Shto paketa</a>
-<a href="sfida.php">Shto sfida</a>
 
 
      

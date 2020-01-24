@@ -65,6 +65,7 @@ include('dbcon.php');
                     <div class="form-group">
                        <label for="type">Type*</label><br>
                       <select name ="Type" class="form-control">
+                          <option>Admin</option>
                           <option>Admin_Agjensie</option>
                           <option>User</option>
                       </select>

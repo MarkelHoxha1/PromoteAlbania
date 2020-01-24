@@ -10,9 +10,10 @@
   {
     display: none
   }
+
 </style>
 <!-- Optional theme -->
-<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="css/layout.css" rel="stylesheet" type="text/css">
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 
@@ -29,8 +30,8 @@
 <title>Promote Albania</title>
 </head>
 
-<body style="padding-top: 60px">
-<?php include_once('headeri.html'); ?>
+<body style="padding-top: 60px; background-color:#fbe9ec;">
+<?php include_once('Includes/headeri.html'); ?>
 <div id="carousel1" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carousel1" data-slide-to="0" class="active"></li>
@@ -102,47 +103,35 @@
     
   </div>
   <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.js"></script>
   <section class="container">
    <div class="row">
-    <figure class="col-sm-6">
-     <a href="t_kulturor.php"> <p>Turizmi Kulturor</p></a>
-    <a href="t_kulturor.php"><img src="Foto/butrint.jpg" alt="foto"></a>
-    </figure>
-    <figure class="col-sm-6">
-      <a href="malore.php"><p>Turizmi malor</p></a>
-      <a href="malore.php"><img src='Foto/mali.jpg'></a>
-    </figure>
-  </div>
-  <div class="row"> 
-    <figure class="col-sm-6">
-      <a href ="Turizmi.php"><p>Turizmi blu</p></a>
+   <figure class="col-sm-6">
+   <a href ="Turizmi.php"><p class="turizmiBlu">Turizmi blu</p></a>
    <a href="Turizmi.php"><img src="Foto/ujesi.jpg"></a>
     </figure>
-    <figure class="col-sm-6">
-      <a href="marxhens.php"><p>Turizmi Kulinar</p></a>
-    <a href="marxhens.php"><img src="Foto/ushqim5.jpg"></a>
+    
+  </div>
+  <div class="row"> 
+  <figure class="col-sm-6">
+    <a href="t_kulturor1.php"> <p class="turizmiKulturor">Turizmi Kulturor</p></a>
+    <a href="t_kulturor1.php"><img src="Foto/butrint.jpg" alt="foto"></a>
     </figure>
   </div>
 </section>
 <section class="container">
+<h4>Dergo nje mesazh</h4>
  <form method="POST">
-<div class = "form-group">
-  <textarea  name="fusha" id= "fusha" rows="10" cols="80" ></textarea>
- <a class = "btn btn-success" onclick="mos()" value ="dergo " name="dergo" ><span class = "glyphicon glyphicon-send"></span> Send</a>
+<div class = "form-group col-sm-6">
+  <textarea  name="fusha" id= "fusha" rows="7" cols="60" ></textarea>
+  <a class = "btn btn-success" onclick="mos()" value ="dergo " name="dergo" ><span class = "glyphicon glyphicon-send"></span> Send</a>
   </div>
   </form>
 </section>
 <footer class="container">
   <div class="row">
-    <p class="col-sm-4">&copy; 2016 OM 4</p>
+    <p class="col-sm-4">&copy; 2020</p>
     <ul class="col-sm-8">
       <li class="col-sm-1">...</li>
-  <li class="col-sm-1">  <img src=""></li>
-  <li class="col-sm-1">  <img src=""></li>
-  <li class="col-sm-1">  <img src=""></li>
-  <li class="col-md-1">  <img src=""></li>
    
     </ul>
   </div>

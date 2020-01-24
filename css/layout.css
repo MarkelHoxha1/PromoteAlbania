@@ -22,6 +22,7 @@ form .navbar-form
 body
 {
   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  background-color:#fbe9ec;
 }
 ul .ele{
   font-weight: 900;
@@ -31,7 +32,7 @@ ul .ele{
 }
  ul #ele{
   
-  color:#BB6B2E;
+  color:black;
    font-weight: 600;
 }
 form #forma{
@@ -45,15 +46,17 @@ div li
 }
 #titulli
 {
-  color:#35AC82;
-  font-weight:700;
+  color:black;
+  font-weight:600;
+  font-size:xx-large;
   font-family: 'Roboto',"Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
   margin-right: 20px;
   padding-right: 50px;
 }
 #topFixedNavbar1
 {
-    padding-left: 400px;
+    padding-left:40%;
+    font-size: large;
     display: flex;  
 }
 li
@@ -188,4 +191,14 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+.turizmiBlu
+{
+  color: blue;
+  font-size: medium;
+}
+.turizmiKulturor
+{
+  color: brown;
+  font-size: medium;
 }

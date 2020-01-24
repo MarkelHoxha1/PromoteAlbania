@@ -13,7 +13,6 @@ require('user_name.php');
     <div class="collapse navbar-collapse" id="topFixedNavbar1">
       <ul  id = "#elem" class=" nav navbar-nav ">
         <li><a  href="bootstrap1.php" id="ele">Home<span class="sr-only">(current)</span></a></li>
-       <li><a href="#pjesa e ornesit" id="ele">Challenge<span class="sr-only">(current)</span></a></li>
        <li><a href="#Contact Us" id="ele">Contact<span class="sr-only">(current)</span></a></li>
        <li><a  id = "ele" href="#about us">About Us<span class="sr-only">(current)</span></a></li>
       </ul>

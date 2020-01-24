@@ -58,7 +58,6 @@ $('.s').html(response).slideDown();
 </td>
 </tr>
 </table>
-<a href="raporte.php">Shiko raportet mbi shitjet</a>
 <a href="user.php">Menaxho User-at</a>
 <a href="mesazhe.php">Menaxho Komentet</a>
 <a class="doni">Doni te dini me shume</a>

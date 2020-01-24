@@ -7,10 +7,10 @@ include('user_name.php');
 <html>
 <head>
     <title>Admin Panel</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css"  crossorigin="anonymous">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="bootstrap/css/jquery.dataTables.css">
@@ -18,7 +18,7 @@ include('user_name.php');
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="bootstrap/js/jquery-1.11.3.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.min.js"  crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="css/style1.css">
 </head>
 <body>
@@ -147,18 +147,9 @@ include('user_name.php');
 <a href="kerkesa.php">Shiko kerkesa</a>
 <a href="shiko_paketa1.php">Shiko paketa</a>
 <a href="paketa.php">Shto paketa</a>
-<a href="sfida.php">Shto sfida</a>
-
-
-     
-
-
 
 </div>
-    
-
-
-
+ 
 </div>
 <script src="bootstrap/js/jquery-1.11.1.min.js"></script>
         <script src="bootstrap/js/dataTables.js"></script>
